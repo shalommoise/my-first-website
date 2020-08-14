@@ -8,8 +8,19 @@
   </head>
   <body>
     <!-- create a function that will change the heading depending on the time of day -->
-    <h1>Good morning/ afternoon/ evening!</h1>
+    <h1 id="time">
+      "Hello there :)"
+    </h1>
+    <script>
+      const whatTimeIsit = () => {
+        let time = Number(Date().split(" ")[4].split(":")[0]);
 
+        if (time >= 0 && time < 12) return "Good Morning :)";
+        else if (time >= 12 && time < 17) return "Good Afternoon :)";
+        else if (time >= 17 && time < 23) return "Good Evening :)";
+      };
+      document.getElementById("time").innerHTML = whatTimeIsit();
+    </script>
     <p>
       Welcome to my site! Please have a browse through the projects I've been
       working on.<br />
