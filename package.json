@@ -1,0 +1,23 @@
+{
+  "name": "my-first-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalommoise/my-first-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shalommoise/my-first-website/issues"
+  },
+  "homepage": "https://github.com/shalommoise/my-first-website#readme",
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
