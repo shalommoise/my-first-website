@@ -1,3 +1,38 @@
 h1 {
   font-size: 40pt;
 }
+.footericon{
+  max-width: 20px;
+  margin: 5px
+}
+/* body {
+  background-color: blueviolet;
+  /* color: blueviolet; */
+  animation: background 10s infinite linear;
+}
+/* #end_game {
+  animation: background 1s infinite linear;
+}
+*/
+@keyframes background {
+  0% {
+    background-color: lightblue;
+    color: darkblue;
+  }
+  25% {
+    background-color: blue;
+    color: lightblue;
+  }
+  50% {
+    background-color: darkblue;
+    color: white;
+  }
+  75% {
+    background-color: blue;
+    color: lightblue;
+  }
+  100% {
+    background-color: lightblue;
+    color: darkblue;
+  }
+} */
