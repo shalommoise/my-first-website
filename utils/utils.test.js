@@ -8,9 +8,9 @@ describe("whatTimeIsIt", () => {
     const time = 15;
     expect(whatTimeIsit(time)).toBe("Good Afternoon :)");
   });
-  test("change to Good morning whentime is between 00-12", () => {
-    const time = 3;
-    expect(whatTimeIsit(time)).toBe("Good Morning :)");
+  test.only("change to Good morning whentime is between 00-12", () => {
+    // const time = 3;
+    expect(whatTimeIsit()).toBe("Good Morning :)");
   });
   test("change to Good Evening when time is between 17- midnight", () => {
     const time = 20;
