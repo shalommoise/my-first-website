@@ -5,4 +5,4 @@ const whatTimeIsit = () => {
   else if (time >= 12 && time < 17) return "Good Afternoon";
   else if (time >= 17 && time < 23) return "Good Evening";
 };
-document.getElementById("time").innerHTML = whatTimeIsit();
+document.getElementById("greeting").innerHTML = whatTimeIsit();
