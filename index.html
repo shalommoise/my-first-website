@@ -8,19 +8,8 @@
   </head>
   <body>
     <!-- create a function that will change the heading depending on the time of day -->
-    <h1 id="time">
-      "Hello there :)"
-    </h1>
-    <script>
-      const whatTimeIsit = () => {
-        let time = Number(Date().split(" ")[4].split(":")[0]);
+    <h1 id="time"></h1>
 
-        if (time >= 0 && time < 12) return "Good Morning :)";
-        else if (time >= 12 && time < 17) return "Good Afternoon :)";
-        else if (time >= 17 && time < 23) return "Good Evening :)";
-      };
-      document.getElementById("time").innerHTML = whatTimeIsit();
-    </script>
     <p>
       Welcome to my site! Please have a browse through the projects I've been
       working on.<br />
@@ -28,9 +17,36 @@
       media links or on the contact form below. <br />Thanks for visiting :)
     </p>
     <h2>About me</h2>
-    <p>stuff about me...</p>
+    <p>
+      I have just recently completed a remote, full-stack developer Northcoders!
+    </p>
 
     <h2>Experience</h2>
     <p>expereince of mine...</p>
+    <a href="./project.html"
+      ><button><p>See my Projects</p></button></a
+    >
+    <footer>
+      <a href="https://github.com/shalommoise">
+        <img
+          class="footericon"
+          src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"
+          alt="GitHub"
+      /></a>
+      <a href="https://www.linkedin.com/in/shalom-moise-20a294128/">
+        <img
+          class="footericon"
+          src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Square.png"
+          alt="LinkedIn"
+      /></a>
+      <a href="https://www.strava.com/athletes/51107146"
+        ><img
+          class="footericon"
+          src="https://cdn.worldvectorlogo.com/logos/strava-2.svg"
+          alt="Strava"
+      /></a>
+      email
+    </footer>
   </body>
+  <script src="scripts/timeGreeting.js"></script>
 </html>
