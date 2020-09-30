@@ -1,6 +1,7 @@
 const timing = () => {
-  const myDate = new Date();
-  return myDate;
+  const myDate = Date();
+  const takeOut = myDate.split("G")[0].split(" ")[4];
+  return takeOut;
 };
 
 setInterval(function () {
