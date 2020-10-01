@@ -7,53 +7,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- create a function that will change the heading depending on the time of day -->
-    <header>
-      <p id="time"></p>
-    <h1 id="greeting"></h1>
-</header>
-    <p>
-      Welcome to my site! Please have a browse through the projects I've been
-      working on.<br />
-      If you would like to be in touch please contact me on any of my social
-      media links or on the contact form below. <br />Thanks for visiting :)
-    </p>
-    <h2>About me</h2>
-    <p>
-      I have just recently completed a remote, full-stack developer Northcoders!
-    </p>
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
 
-    <h2>Experience</h2>
-    <p >expereince of mine...</p>
-    <a href="./project.html"
-      ><button><p>See my Projects</p></button></a
-    >
-    <footer>
-      <a href="https://github.com/shalommoise">
-        <img
-          class="footericon"
-          src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png"
-          alt="GitHub"
-      /></a>
-      <a href="https://www.linkedin.com/in/shalom-moise-20a294128/">
-        <img
-          class="footericon"
-          src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Square.png"
-          alt="LinkedIn"
-      /></a>
-      <a href="https://www.strava.com/athletes/51107146"
-        ><img
-          class="footericon"
-          src="https://cdn.worldvectorlogo.com/logos/strava-2.svg"
-          alt="Strava"
-      /></a>
+    <header>
+
+    <a  class="headerLinks" href="./index.html" > <h1>My Home </h1>  </a>
+<a class="headerLinks" href="./project.html">
+    <h1 >My Projects</h1>
+  </a>
+  <a class="headerLinks" href="./Experience.html">
+    <h1>My Experience</h1>
+  </a>
+  <a class="headerLinks" href="./interests.html">
+    <h1>My Interests</h1>
+  </a>
+        <!-- <p id="time"></p> -->
+       
+</header>
+<main>
+
+    <p>
+      Welcome to my portfolio site! Please have a browse through the projects I've been working on.<br />
+      If you would like to be in touch please contact me on any of my social
+      media links or <a href="mailto:mshalom689@gmail.com?subject=Hi Shalom">email</a>.<br />Thanks for visiting :)
+    </p>
+     
+<div class="coloredSection">
+    <h2 class="subTitle">About me</h2>
+    <section id="about">
+    <p class="caption">
+      I have just recently completed a remote, full-stack developer Northcoders! On the course, I learnt the core fundamentals of JavaScript and Node.JS,and how they can be implemnted to make servers, websites and apps. 
+    </p>
+    <img class="profilePic"
+      src="https://avatars3.githubusercontent.com/u/67001247?s=460&u=336270fd222e289c7d2380d0358e6a2e461ea978&v=4"
+      alt="profile pic" />
+      </section>
+    </div>
+    
+  <h2 class="subTitle">Experience</h2>
+  <ul>
+    <li>
+      <h3 id="NorthcodersH" onclick="Northcoders()" >Northcoders</h3><p  id="Northcoders" "></p>
+    </li>
+  <li>
+  <h3 id="Time4TorahH" onclick="Time4Torah()">Time4Torah</h3>
+  <p id="Time4Torah" "></p></li>
+<li><h3>The Dvash Project</h3></li></ul>
+<div class='coloredSection'>
+<h2 class="subTitle">Interests</h2>
+<ul><li> <h3 id="campSimchaH" onclick="campSimcha()">Camp Simcha & Camp Kef</h3><p id="CampSimcha"></p></li>
+<li> <h3>Running</h3></li></ul> </div>
+   
+    </main>
+      <footer>
+        <a href="https://github.com/shalommoise">
+          <img class="footericon" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/shalom-moise-20a294128/">
+          <img class="footericon" src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Square.png"
+            alt="LinkedIn" /></a>
+        <a href="https://www.strava.com/athletes/51107146" id="strava"><img class="footericon"
+            src="https://cdn.worldvectorlogo.com/logos/strava-2.svg" alt="Strava" /></a>
+        <p id="stravaHidden"> could really do with some more followers on Strava :)</p>
         <a href="mailto:mshalom689@gmail.com?subject=Hi Shalom"><img class="footericon"
             src="https://image.flaticon.com/icons/png/512/8/8807.png" alt="email" /></a>
+        <a href="https://www.facebook.com/shalom.moise"><img class="footericon"
+            src="https://www.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="facebook" /></a>
       
-    </footer>
+        <a href="https://www.instagram.com/shalommoise/ "><img class="footericon"
+            src="https://www.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png"
+            alt="instagram" /></a>
+      </footer>
   </body>
-  <script src="scripts/timeGreeting.js"></script>
-  <script src="scripts/timing.js"></script>
-  
+
+  <!-- <script src="scripts/timing.js"></script> -->
+  <script src="scripts/listItems.js"></script>
+  <script src="scripts/hoverButton.js"></script>
+ 
   </html>
 </html>
