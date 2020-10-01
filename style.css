@@ -124,3 +124,11 @@ footer {
 #myBtn:hover {
   background-color: #555;
 }
+/* .webButton:active + .web {
+  display: block;
+  width: 700px;
+  height: 700px;
+} */
+.web {
+  display: none;
+}
