@@ -18,7 +18,8 @@ const Northcoders = () => {
   if (!words.innerHTML) {
     heading.style.color = "blue";
     heading.innerHTML = "Hide Northcoders";
-    words.innerHTML = "Speak about agile coding";
+    words.innerHTML =
+      " I have just recently completed a remote, full-stack developer Northcoders! On the course, I learnt the core fundamentals of JavaScript and Node.JS,and how they can be implemented to make servers, websites and apps. I have also learnt agile coding practices, such as: version control, TDD, pair-programming and stand ups.<Br/> Most importantly, I gained the ability to be able to learn how to use resources like MDN and stackoverflow to learn new tech-stacks that were not covered on the course";
   } else {
     words.innerHTML = "";
     heading.style.color = "black";
