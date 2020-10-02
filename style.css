@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Acme";
 }
 header {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto /*auto auto*/;
 
   background-color: #9933cc;
   color: #ffffff;
@@ -28,7 +28,7 @@ ul {
 .subTitle {
   text-decoration-line: underline;
 }
-li:hover {
+.listTitle:hover {
   color: green;
   cursor: default;
 }
