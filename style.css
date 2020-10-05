@@ -47,9 +47,9 @@ footer {
   margin-right: 5px;
 }
 .footericon:hover {
-  width: 30px;
+  width: 35px;
   border-radius: 20px;
-  margin: 10px;
+  margin-bottom: 15px;
 }
 #strava:hover + #stravaHidden {
   display: inline-flex;
@@ -71,6 +71,7 @@ footer {
   border-top-width: 10px;
   border-top: #9933cc;
   padding: 15px;
+  margin-bottom: 8px;
 }
 .caption {
   max-width: 50%;
@@ -263,7 +264,7 @@ footer {
 #dissertation {
   width: 100%;
   min-height: 300px;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .presentation {
@@ -299,7 +300,18 @@ footer {
 
   margin-right: 20px;
 }
-
+.picgallery {
+  display: flex;
+  margin: 20px;
+}
+.mo {
+  width: 40%;
+  margin: 5px;
+  padding: 10px;
+  max-height: 350px;
+  background-color: lightskyblue;
+  border-radius: 3px;
+}
 #mech1 {
   display: block;
 }
@@ -308,5 +320,12 @@ footer {
   width: 60%;
 }
 .unidis {
+  display: none;
+}
+.video {
+  max-width: 300px;
+  margin-right: 20px;
+}
+.CampSimcha {
   display: none;
 }

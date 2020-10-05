@@ -19,7 +19,8 @@ const Northcoders = () => {
 
   if (!words.innerHTML) {
     heading.style.color = "blue";
-    heading.innerHTML = "Hide Northcoders";
+    heading.innerHTML =
+      'Hide Northcoders <img class="footericon" src="https://northcoders.com/images/logos/learn_to_code_manchester_rw_original.png" alt="NC logo" />';
     words.innerHTML =
       " I have just recently completed a remote, full-stack developer Northcoders! On the course, I learnt the core fundamentals of JavaScript and Node.JS,and how they can be implemented to make servers, websites and apps. I have also learnt agile coding practices, such as: version control, TDD, pair-programming and stand ups.<Br/> Most importantly, I gained the ability to be able to learn how to use resources like MDN and stackoverflow to learn new tech-stacks that were not covered on the course";
   } else {
@@ -81,5 +82,29 @@ const unidis = () => {
   } else {
     words.style.display = "none";
     heading.innerHTML = "University Dissertation";
+  }
+};
+const t4TStats = () => {
+  const words = document.getElementById("T4Tstats");
+  const heading = document.getElementById("T4TstatsH");
+
+  if (heading.innerHTML !== "Hide Time4Torah Statistics") {
+    words.style.display = "block";
+    heading.innerHTML = "Hide Time4Torah Statistics";
+  } else {
+    words.style.display = "none";
+    heading.innerHTML = "Time4Torah Statistics";
+  }
+};
+const csMarathon = () => {
+  const words = document.getElementsByClassName("CampSimcha")[0];
+  const heading = document.getElementById("CampSimchaH");
+
+  if (heading.innerHTML !== "Hide Fundraising for Camp Simcha") {
+    words.style.display = "block";
+    heading.innerHTML = "Hide Fundraising for Camp Simcha";
+  } else {
+    words.style.display = "none";
+    heading.innerHTML = "Fundraising for Camp Simcha";
   }
 };
