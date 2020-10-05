@@ -25,3 +25,14 @@ const whichButton = (event) => {
 
   document.getElementById(`ustar${count}`).style.display = "block";
 };
+
+let number = 1;
+const presentButton = (event) => {
+  document.getElementById(`mech${number}`).style.display = "none";
+
+  number = number + event;
+  if (number === 10) number = 1;
+  if (number === 0) number = 9;
+
+  document.getElementById(`mech${number}`).style.display = "block";
+};

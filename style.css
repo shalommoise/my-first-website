@@ -75,6 +75,10 @@ footer {
 .caption {
   max-width: 50%;
 }
+.ncnewsinfo {
+  display: flex;
+}
+
 /* body {
   background-color: blueviolet;
   /* color: blueviolet; */
@@ -174,6 +178,7 @@ footer {
   border-top-width: 60px;
   border-bottom-width: 60px;
   border-radius: 36px;
+  margin-bottom: 10px;
 }
 .bigSmartphone:before {
   content: "";
@@ -205,6 +210,7 @@ footer {
 .gallerybuttons {
   margin: 5px;
   display: flex;
+  justify-content: center;
 }
 .gallerybutton {
   margin: 5px;
@@ -234,10 +240,73 @@ footer {
 .multiView {
   display: inline-flex;
 }
+.mechGallery {
+  /* display: flex; */
+  display: grid;
+  /* max-width: 320px; */
+  /* width: 100%;
+  height: auto; */
+}
+.mechsec {
+  width: 20%;
+}
 .ustarvideo {
   background-color: red;
   border-radius: 20px;
   width: 70%;
   height: 400px;
   margin-left: 10px;
+}
+.phonelink {
+  margin-left: 20px;
+}
+#dissertation {
+  width: 100%;
+  min-height: 300px;
+  max-height: 500px;
+}
+
+.presentation {
+  max-width: 500px;
+
+  padding: 7px;
+  background-color: lightsalmon;
+
+  display: none;
+}
+.bigPresentation {
+  max-width: 1000px;
+
+  padding: 7px;
+  background-color: lightsalmon;
+
+  display: none;
+}
+#presentation {
+  max-width: 500px;
+
+  padding: 7px;
+  background-color: lightsalmon;
+}
+#bigpresentation {
+  max-width: 1000px;
+
+  padding: 7px;
+  background-color: lightsalmon;
+}
+.mechpresentation {
+  max-width: 500px;
+
+  margin-right: 20px;
+}
+
+#mech1 {
+  display: block;
+}
+.center {
+  margin: auto;
+  width: 60%;
+}
+.unidis {
+  display: none;
 }

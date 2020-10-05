@@ -71,3 +71,15 @@ const uStar = () => {
     heading.innerHTML = "uStar";
   }
 };
+const unidis = () => {
+  const words = document.getElementsByClassName("unidis")[0];
+  const heading = document.getElementById("unidisH");
+
+  if (heading.innerHTML !== "Hide University Dissertation") {
+    words.style.display = "block";
+    heading.innerHTML = "Hide University Dissertation";
+  } else {
+    words.style.display = "none";
+    heading.innerHTML = "University Dissertation";
+  }
+};

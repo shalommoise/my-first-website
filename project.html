@@ -23,7 +23,7 @@
 
 </header>
 <p id="time"></p>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
   <div class="coloredSection">
     <h6>You can find all my coding projects on <a href="https://github.com/shalommoise">Github</a></h6>
       <h2>Northcoders Projects</h2>
@@ -45,22 +45,73 @@
 </iframe> </div>
      </li>
       <li><h3  class="listTitle" id="NC-newsH" onclick="showWeb()"">NC-News</h3> 
-          <!-- <p class="webButton" onclick="showWeb()">Show Website</p> -->
+
           <div class="web">
-         <p>hello</p>
-            <div class="bigSmartphone"><iframe class="website" src="https://nc-news-byshalommoise.netlify.app/"
+         <p>NC-News is a 2-part project to create a Reddit-like website where users can comment and rate other people's articles. </p>
+         <div class="ncnewsinfo">
+         <ul><li><h4 >Back-end</h4> <p>This project was the final of part of the back-end section of the course. The back-end is a relational database with 4 tables: 2 parent tables, users & topics; and 2 child tables, articles, which is dependent on both the users & topics tables, and comments which is dependent on the articles tables.</p> <p>It was built with express & knex.sql-postgreSQL. The endpoints were tested with Jest & SuperTest </p></li>
+          <li><h4>Front-end</h4> 
+        <p> In the end of the front-end section of the course, which aided me in the understanding of how serevers interact with individual users. The website was built with React.js and interacted with the server with axios.</p>
+        </li></ul>
+          <div class="phonelink">  <div class="bigSmartphone"><iframe class="website" src="https://nc-news-byshalommoise.netlify.app/"
                 title="My Nc-News">
               </iframe></div>
               <a href="http://nc-news-byshalommoise.netlify.app/" target="_blank">
-        
-              </a>
+        Click here to open NC-News in another window
+              </a> </div>
           </div>
-          
+          </div>
          
           </div>
       </li>
     </ul>
-
+  
+    <h2>Other Projects</h2>
+    <ul>
+      <li><h3 class="listTitle" onclick="unidis()" id="unidisH">University Dissertation</h3><section class="unidis"> <p>For my final year project, I tested the relative tensile-strength of a magneisum-alloy as it degrades. The purpose of this testing was to see the effectivness of this material to be used as tracheal stent in infants with under-developed wind-pipes.</p>
+        <p>To obtain significant results, I had to run the tensile-tests many times and compile large data-sets using excel. <br/> <a href="./mechproject.html">See project paper</a></p>
+   
+    <section class="mechGallery">
+   
+      <div class="mechpresentation">
+          <p>I also had to make present my findings to my project supervisor and her colleague. </p>
+      <div class="presenatstiongallrey">
+        <img class="presentation" id="mech1" src="/pictures/mecheng/Presentation_page-0001.jpg" alt="Presentation_page-0001">
+        <img class="presentation"  id="mech2" src="/pictures/mecheng/Presentation_page-0002.jpg" alt="Presentation_page-0002">
+        <img class="presentation"  id="mech3" src="/pictures/mecheng/Presentation_page-0003.jpg" alt="Presentation_page-0003">
+        <img class="presentation"  id="mech4" src="/pictures/mecheng/Presentation_page-0004.jpg" alt="Presentation_page-0004">
+        <img class="presentation"  id="mech5" src="/pictures/mecheng/Presentation_page-0005.jpg" alt="Presentation_page-0005">
+        <img class="presentation"  id="mech6" src="/pictures/mecheng/Presentation_page-0006.jpg" alt="Presentation_page-0006">
+        <img class="presentation"  id="mech7" src="/pictures/mecheng/Presentation_page-0007.jpg" alt="Presentation_page-0007">
+        <img class="presentation"  id="mech8" src="/pictures/mecheng/Presentation_page-0008.jpg" alt="Presentation_page-0008">
+        <img class="presentation"  id="mech9" src="/pictures/mecheng/Presentation_page-0009.jpg" alt="Presentation_page-0009">
+        <img class="presentation"  id="mech10" src="/pictures/mecheng/Presentation_page-0010.jpg" alt="Presentation_page-00010">
+        </div>
+        <div class="gallerybuttons">
+          <button class="gallerybutton" onclick="presentButton(-1)">←</button>
+          <button class="gallerybutton" onclick="presentButton(+1)">→</button>
+        
+        </div>
+     
+      </div><a href="./mechpresent.html"> <h6 class="center">See presentation in full screen</h6></a>
+      </div>
+      <div>
+<div> 
+ 
+     
+        <p>I also made a poster to present my dissertation </p>
+        <img src="./pictures/mecheng/Year3ProjectPoster.jpg"  class="mechpresentation" id="presentation" alt="poster">
+        <a href="./mechposter.html">
+          <h6 class="center">See poster in full screen</h6>
+        </a>
+      </div>
+    </section>
+    </section>
+      </li>
+    <li>
+      <h3 class="listTitle">Time4Torah Statistics</h3>
+    </li>
+    </ul>
 
         <footer>
           <a href="https://github.com/shalommoise" target='_blank'>
@@ -86,4 +137,5 @@
   <script src="scripts/website.js"></script>
    <script src="scripts/timing.js"></script>
    <script src="scripts/listItems.js"></script>
+    <script src="scripts/hoverButton.js"></script>
 </html>
