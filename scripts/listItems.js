@@ -59,3 +59,15 @@ const TheDvashProject = () => {
     heading.innerHTML = "The Dvash Project";
   }
 };
+const uStar = () => {
+  const words = document.getElementsByClassName("ustarproject")[0];
+  const heading = document.getElementById("ustarH");
+
+  if (heading.innerHTML !== "Hide uStar") {
+    words.style.display = "block";
+    heading.innerHTML = "Hide uStar";
+  } else {
+    words.style.display = "none";
+    heading.innerHTML = "uStar";
+  }
+};

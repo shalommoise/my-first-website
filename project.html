@@ -28,40 +28,60 @@
     <h6>You can find all my coding projects on <a href="https://github.com/shalommoise">Github</a></h6>
       <h2>Northcoders Projects</h2>
     <ul>
-      <li><h3  class="listTitle">uStar</h3> </li>
-      <li><h3  class="listTitle">NC-News</h3> 
-       
+      <li><h3  class="listTitle" id="ustarH" onclick="uStar()">uStar</h3> <div class="ustarproject"><p>
+        This was a group project for my project-phase of Northcoders. We created an app that enables parents to set tasks for their children, and award them stars for completing said task, which can then be used to buy rewards on the rewards store, which are set by te parents. We used react Native-expo to build the app so that it would work on ios and android. We built the backend was built with knex-postgress, as it is a realtional database. Have a look at some screen shots of the app and our presenatstion video below. You can also <a href="https://www.youtube.com/watch?v=tAzqQnLhO6M&t=4s" target='_blank'>view the video here.</a> <br/>If you have the Expo app, you can view the app at <a href="https://expo.io/@aadilmohamed123/projects/ustar" target='_blank'> the following link </a> or scan the QR code last on the last screenshot. </p>
+        <section class="multiView"> 
+        <div class="gallery"><div class="smartphone"  id='ustar0'> <img  class="galleryimg" src="./pictures/ustar/HomePage.jpeg" alt="HomePage"/> </div>
+        <div class="smartphone"  id='ustar1'> <img class="galleryimg" src="./pictures/ustar/HowToUsePage.jpeg" alt="HowToUsePage"> </div>
+          <div class="smartphone" id='ustar2' > <img class="galleryimg" src="./pictures/ustar/ChildLogin.jpeg" alt="ChildLogin"> </div>
+            <div class="smartphone" id='ustar3'>  <img   class="galleryimg" src="./pictures/ustar/TasksPage.jpeg" alt="TasksPage"> </div>
+            <div class="smartphone" id='ustar4'> <img class="galleryimg" src="./pictures/ustar/UstarExpoCode.jpeg" alt="QRCode">
+            </div>
+              <div   class="gallerybuttons">
+                <button  class="gallerybutton" onclick="whichButton(-1)">←</button>
+          <button  class="gallerybutton" onclick="whichButton(+1)">→</button> 
+</div> </div> </section>
+<iframe class="ustarvideo" src="https://www.youtube.com/embed/tAzqQnLhO6M">
+</iframe> </div>
+     </li>
+      <li><h3  class="listTitle" onclick="showWeb()"">NC-News</h3> 
+          <!-- <p class="webButton" onclick="showWeb()">Show Website</p> -->
+          <div class="web">
+            <div class="bigSmartphone"><iframe class="website" src="https://nc-news-byshalommoise.netlify.app/"
+                title="My Nc-News">
+              </iframe></div>
+          </div>
+          
+          <a href="http://nc-news-byshalommoise.netlify.app/" target="_blank">
+            <p id="openNc"></p>
+          </a>
+          </div>
       </li>
     </ul>
-    <p class="webButton" onclick="showWeb()">Show Website</p>
-   
-  <iframe class="web" src="https://nc-news-byshalommoise.netlify.app/" title="My Nc-News">
-  </iframe>
-  <a href="http://nc-news-byshalommoise.netlify.app/" target="_blank">
-    <p id="openNc"></p>
-  </a>
-  </div>
 
-      <footer>
-        <a href="https://github.com/shalommoise">
-          <img class="footericon" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/shalom-moise-20a294128/">
-          <img class="footericon" src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Square.png"
-            alt="LinkedIn" /></a>
-        <a href="https://www.strava.com/athletes/51107146" id="strava"><img class="footericon" 
-            src="https://cdn.worldvectorlogo.com/logos/strava-2.svg" alt="Strava" /></a> <p id="stravaHidden"> pretty please? :)</p>
-        <a href="mailto:mshalom689@gmail.com?subject=Hi Shalom"><img class="footericon"
-            src="https://image.flaticon.com/icons/png/512/8/8807.png" alt="email" /></a>
-              <a href="https://www.facebook.com/shalom.moise"><img class="footericon"
-                  src="https://www.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="facebook" /></a>
-                
-                  <a href="https://www.instagram.com/shalommoise/ "><img class="footericon"
-                      src="https://www.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" alt="instagram" /></a>
-                        <a href="https://twitter.com/MoiseShalom"><img class="footericon"
-                            src="https://www.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png"
-                            alt="twitter" /></a>
-      </footer>
+
+        <footer>
+          <a href="https://github.com/shalommoise" target='_blank'>
+            <img class="footericon" src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/shalom-moise-20a294128/" target='_blank'>
+            <img class="footericon" src="https://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-Square.png"
+              alt="LinkedIn" /></a>
+          <a href="https://www.strava.com/athletes/51107146" id="strava" target='_blank'><img class="footericon"
+              src="https://cdn.worldvectorlogo.com/logos/strava-2.svg" alt="Strava" /></a>
+          <p id="stravaHidden"> please? :)</p>
+          <a href="mailto:mshalom689@gmail.com?subject=Hi Shalom" target='_blank'><img class="footericon"
+              src="https://image.flaticon.com/icons/png/512/8/8807.png" alt="email" /></a>
+          <a href="https://www.facebook.com/shalom.moise" target='_blank'><img class="footericon"
+              src="https://www.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="facebook" /></a>
+        
+          <a href="https://www.instagram.com/shalommoise/" target='_blank'><img class="footericon"
+              src="https://www.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png"
+              alt="instagram" /></a>
+          <a href="https://twitter.com/MoiseShalom" target='_blank'><img class="footericon"
+              src="https://www.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png" alt="twitter" /></a>
+        </footer>
   </body>
   <script src="scripts/website.js"></script>
-    <script src="scripts/timing.js"></script>
+   <script src="scripts/timing.js"></script>
+   <script src="scripts/listItems.js"></script>
 </html>
