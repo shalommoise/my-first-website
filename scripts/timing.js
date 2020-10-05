@@ -26,10 +26,19 @@ const getDate = () => {
     Nov: "November",
     Dec: "Dec",
   };
+  const days = {
+    Sun: "Sunday",
+    Mon: "Mon",
+    Tue: "Tuesday",
+    Wed: "wednesday",
+    Thurs: "Thursday",
+    Fri: "Friday",
+    Sat: "Saturday",
+  };
   const myDate = Date();
-  const day = myDate.split(" ")[0] + "day";
+  const day = days[myDate.split(" ")[0]];
 
-  const date = `${myDate.split(" ")[0]}day ${myDate.split(" ")[2]} ${
+  const date = `${day} ${myDate.split(" ")[2]} ${
     months[myDate.split(" ")[1]]
   } ${myDate.split(" ")[3]}`;
   return date;
