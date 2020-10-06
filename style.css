@@ -69,6 +69,11 @@ footer {
   display: flex;
   flex-wrap: nowrap;
 }
+@media only screen and (max-width: 600px) {
+  #about {
+    display: grid;
+  }
+}
 .coloredSection {
   background-color: lightgray;
   border-top-width: 10px;
