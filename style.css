@@ -38,6 +38,9 @@ footer {
   padding: 10px;
   background-color: #9933cc;
   max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footericon {
   background-color: #ffffff;
@@ -79,38 +82,6 @@ footer {
 .ncnewsinfo {
   display: flex;
 }
-
-/* body {
-  background-color: blueviolet;
-  /* color: blueviolet; */
-/* animation: background 10s infinite linear;
-} */
-/* #end_game {
-  animation: background 1s infinite linear;
-}
-/* 
-@keyframes background {
-  0% {
-    background-color: lightblue;
-    color: darkblue;
-  }
-  25% {
-    background-color: blue;
-    color: lightblue;
-  }
-  50% {
-    background-color: darkblue;
-    color: white;
-  }
-  75% {
-    background-color: blue;
-    color: lightblue;
-  }
-  100% {
-    background-color: lightblue;
-    color: darkblue;
-  }
-} */
 
 #myBtn {
   display: none;
@@ -323,9 +294,45 @@ footer {
   display: none;
 }
 .video {
-  max-width: 300px;
+  width: 100%;
+  max-width: 1000px;
   margin-right: 20px;
 }
 .CampSimcha {
   display: none;
+}
+.try {
+  background-image: url("/pictures/marathon/beforeRace.jpg");
+  background-color: #cccccc;
+  margin-bottom: 20px;
+}
+.csimglinks {
+  width: 23%;
+
+  margin: 5px;
+  padding: 10px;
+  max-height: 350px;
+  background-color: lightskyblue;
+  border-radius: 3px;
+}
+
+.csimg {
+  width: 100%;
+  height: 100%;
+}
+.csframe {
+  width: 40%;
+
+  margin: 20px;
+  height: 300px;
+}
+.pics {
+  display: flex;
+
+  padding: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
 }
