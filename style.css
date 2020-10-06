@@ -218,11 +218,7 @@ footer {
   display: inline-flex;
 }
 .mechGallery {
-  /* display: flex; */
   display: grid;
-  /* max-width: 320px; */
-  /* width: 100%;
-  height: auto; */
 }
 .mechsec {
   width: 20%;

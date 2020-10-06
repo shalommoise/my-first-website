@@ -1,18 +1,3 @@
-const campSimcha = () => {
-  const words = document.getElementById("CampSimcha");
-  const heading = document.getElementById("campSimchaH");
-  if (!words.innerHTML) {
-    heading.style.color = "blue";
-    words.innerHTML =
-      "I believe it is important for those of us that are fortunate to help those that are not. Both these organisations do amazing work in helping young children with seriously ill children or mental-disability and their families. ";
-    heading.innerHTML =
-      'Hide Camp Simcha  <img class="footericon" src="https://www.campsimcha.org.uk/wp-content/themes/campSimcha/images/logo.svg" alt="Camp Simcha" /> &  Kef kids <img class="footericon" src="https://kefkids.org/img/site/site__logo__w-228_q-90.png" alt="Camp Kef" />  ';
-  } else {
-    words.innerHTML = "";
-    heading.style.color = "black";
-    heading.innerHTML = "Camp Simcha & Kef Kids";
-  }
-};
 const Northcoders = () => {
   const words = document.getElementById("Northcoders");
   const heading = document.getElementById("NorthcodersH");
