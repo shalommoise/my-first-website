@@ -73,6 +73,16 @@ footer {
   #about {
     display: grid;
   }
+  .ncnewsinfo {
+    margin-right: auto;
+  }
+  .phonelink {
+    margin-right: auto;
+  }
+  .bigSmartphone {
+    margin-left: -30px;
+    max-width: 240px;
+  }
 }
 .coloredSection {
   background-color: lightgray;
@@ -85,7 +95,9 @@ footer {
   max-width: 50%;
 }
 .ncnewsinfo {
-  display: flex;
+  /* display: flex;
+  flex-wrap: nowrap; */
+  margin-right: 100px;
 }
 
 #myBtn {
@@ -230,9 +242,7 @@ footer {
   height: 400px;
   margin-left: 10px;
 }
-.phonelink {
-  margin-left: 20px;
-}
+
 #dissertation {
   width: 100%;
   min-height: 300px;
