@@ -83,6 +83,25 @@ footer {
     margin-left: -30px;
     max-width: 240px;
   }
+
+  .mechpresentation {
+    width: 300px;
+  }
+  .presentation {
+    width: 250px;
+  }
+  #presentation {
+    width: 250px;
+  }
+  .presenatstiongallrey {
+    width: 280px;
+  }
+  #bigpresentation {
+    width: 100%;
+  }
+  .bigPresentation {
+    width: 100%;
+  }
 }
 .coloredSection {
   background-color: lightgray;
