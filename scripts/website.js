@@ -1,14 +1,14 @@
-const showWeb = () => {
-  const web = document.getElementsByClassName("web")[0];
-  const webButton = document.getElementsByClassName("webButton")[0];
-  const heading = document.getElementById("NC-newsH");
+const showWeb = (id, index) => {
+  const web = document.getElementsByClassName("web")[index];
+  const heading = document.getElementById(id);
 
+const name = id.replace('H','')
   if (web.style.display !== "block") {
     web.style.display = "block";
-    heading.innerHTML = "Hide NC-News";
+    heading.innerHTML = `Hide ${name}`;
   } else {
     web.style.display = "none";
-    heading.innerHTML = "NC-News";
+    heading.innerHTML = name;
   }
 };
 
