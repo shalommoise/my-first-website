@@ -50,7 +50,7 @@
             <div class="smartphone" id='ustar3'>  <img   class="galleryimg" src="./pictures/ustar/TasksPage.jpeg" alt="TasksPage"> </div>
             <div class="smartphone" id='ustar4'> <img class="galleryimg" src="./pictures/ustar/UstarExpoCode.jpeg" alt="QRCode">
             </div>
-              <div   class="gallerybuttons">
+              <div   class="gallerybuttons" id="ustarbuttons">
                 <button  class="gallerybutton" onclick="whichButton(-1)">←</button>
           <button  class="gallerybutton" onclick="whichButton(+1)">→</button> 
 </div> </div> </section>
@@ -60,19 +60,21 @@
       <li><h3  class="listTitle" id="NC-newsH" onclick="showWeb(id,1)">NC-News</h3> 
 
           <div class="web">
+            <div class="projectlist">
+              <div>
          <p>NC-News is a 2-part project to create a Reddit-like website where users can comment and rate other people's articles. </p>
          <section class="ncnewsinfo">
          <ul><li><h4 >Back-end</h4> <p>This project was the final of part of the back-end section of the course. The back-end is a relational database with 4 tables: 2 parent tables, users & topics; and 2 child tables, articles, which is dependent on both the users & topics tables, and comments which is dependent on the articles tables.</p> <p>It was built with express & knex.sql-postgreSQL. The endpoints were tested with Jest & SuperTest </p></li>
           <li><h4>Front-end</h4> 
         <p> In the end of the front-end section of the course, which aided me in the understanding of how serevers interact with individual users. The website was built with React.js and interacted with the server with axios.</p>
-        </li></ul>
+        </li></ul> </div>
           <div class="phonelink">  <div class="bigSmartphone"><iframe class="website" src="https://nc-news-byshalommoise.netlify.app/"
                 title="My Nc-News">
               </iframe></div>
               <a href="http://nc-news-byshalommoise.netlify.app/" target="_blank">
         Click here to open NC-News in another window
               </a> </div>
-          </div>
+          </div></div>
         </section>
           </li>
           <li>
@@ -96,18 +98,20 @@
        <ul>
          <li>
               <h3 class="listTitle" onclick="showWeb(id , 4)" id="Paint Clone">Paint Clone</h3> 
-              <div class="web"><p>This is just a small paint clone that was built in a few days, with plain HTML, CSS & JavaScript.</p>
+              <div class="web">
+                <div class="projectlist"><p>This is just a small paint clone that was built in a few days, with plain HTML, CSS & JavaScript.</p>
               <iframe class="paintsmallframe"  src="/paint/paint.html"></iframe>
-              </div>
+              </div> </div>
          </li>
        </ul>
      </div>
   <section class="coloredSection">
     <h2 class="subTitle">Other Projects</h2>
     <ul>
-      <li><h3 class="listTitle" onclick="showWeb(id , 5)" id="University Dissertation">University Dissertation</h3><section class="web"> <p>For my final year project, I tested the relative tensile-strength of a magneisum-alloy as it degrades. The purpose of this testing was to see the effectivness of this material to be used as tracheal stent in infants with under-developed wind-pipes.</p>
+      <li><h3 class="listTitle" onclick="showWeb(id , 5)" id="University Dissertation">University Dissertation</h3><section class="web"> 
+        <p>For my final year project, I tested the relative tensile-strength of a magneisum-alloy as it degrades. The purpose of this testing was to see the effectivness of this material to be used as tracheal stent in infants with under-developed wind-pipes.</p>
         <p>To obtain significant results, I had to run the tensile-tests many times and compile large data-sets using excel. <br/> <a href="./mechproject.html">See project paper</a></p>
-   
+  
     <section class="mechGallery">
    
       <div class="mechpresentation">
@@ -125,27 +129,32 @@
         <img class="presentation"  id="mech9" src="/pictures/mecheng/Presentation_page-0009.jpg" alt="Presentation_page-0009">
         <img class="presentation"  id="mech10" src="/pictures/mecheng/Presentation_page-0010.jpg" alt="Presentation_page-00010">
         </div>
-            <p id="pagenumber"> Page | 1 of 10</p>
         <div class="gallerybuttons">
+            <p id="pagenumber"> Page | 1 of 10</p>
+        <div>
           <button class="gallerybutton" onclick="presentButton(-1)">←</button>
           <button class="gallerybutton" onclick="presentButton(+1)">→</button>
         
         </div>
      
-      </div><a href="./mechpresent.html"> <h6 class="center">See presentation in full screen</h6></a>
+  
+      <a href="./mechpresent.html"> <h6 class="center">See presentation in full screen</h6></a>
+      </div>
+          </div>
       </div>
       <div>
 <div> 
  
      
-        <p>I also made a poster to present my dissertation </p>
+        <p>Dissertation poster below </p>
         <img src="./pictures/mecheng/Year3ProjectPoster.jpg"  class="mechpresentation" id="presentation" alt="poster">
         <a href="./mechposter.html">
           <h6 class="center">See poster in full screen</h6>
         </a>
-      </div>
+      </div> 
     </section>
     </section>
+  
       </li>
     <li>
       <h3 class="listTitle" id="Time4Torah Statistics" onclick="showWeb(id , 6)">Time4Torah Statistics</h3> <div id="T4Tstats" class="web">
