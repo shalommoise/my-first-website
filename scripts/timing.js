@@ -31,7 +31,7 @@ const getDate = () => {
     Mon: "Mon",
     Tue: "Tuesday",
     Wed: "wednesday",
-    Thurs: "Thursday",
+    Thu: "Thursday",
     Fri: "Friday",
     Sat: "Saturday",
   };
