@@ -121,6 +121,17 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .snake {
+    display: none;
+    width: 300px;
+    height: 400px;
+  }
+  .snakeTextDesk {
+    display: none;
+  }
+  .snakeTextMob {
+    display: flex;
+  }
 }
 .coloredSection {
   background-color: lightgray;
@@ -427,4 +438,8 @@ footer {
   display: flex;
 
   justify-content: space-between;
+}
+.snake {
+  width: 700px;
+  height: 600px;
 }
