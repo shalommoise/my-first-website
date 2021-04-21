@@ -1,7 +1,7 @@
 {
   "name": "my-first-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio site showing my coding projects",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch"
