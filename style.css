@@ -51,9 +51,6 @@ footer {
   opacity: 0.6;
 }
 .footericon:hover {
-  width: 35px;
-  border-radius: 20px;
-  margin-bottom: 15px;
   opacity: 1;
 }
 
