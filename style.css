@@ -440,3 +440,20 @@ footer {
   width: 700px;
   height: 600px;
 }
+#Loading {
+  position: relative;
+
+  animation: loadingMove 5s infinite linear;
+}
+
+@keyframes loadingMove {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 90%;
+  }
+  100% {
+    left: 0%;
+  }
+}
