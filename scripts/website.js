@@ -37,3 +37,4 @@ const presentButton = (event) => {
   document.getElementById(`mech${number}`).style.display = "block";
   document.getElementById("pagenumber").innerHTML = `Page | ${number} of 10`;
 };
+
