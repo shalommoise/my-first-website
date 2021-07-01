@@ -114,7 +114,6 @@ footer {
   }
 
   .gallerybuttons {
-    /* margin: 5px; */
     display: flex;
     flex-direction: column;
   }
@@ -253,7 +252,6 @@ footer {
   justify-content: space-between;
 }
 .gallerybutton {
-  /* margin: 5px; */
   margin-top: 15px;
   height: 25px;
   width: 80px;
