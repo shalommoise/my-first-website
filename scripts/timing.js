@@ -21,7 +21,7 @@ const getDate = () => {
     Jun: "June",
     Jul: "July",
     Aug: "Aug",
-    Sep: "Spetmber",
+    Sep: "September",
     Oct: "October",
     Nov: "November",
     Dec: "Dec",
